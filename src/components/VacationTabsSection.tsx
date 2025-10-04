@@ -147,7 +147,7 @@ export function VacationTabsSection() {
             variant="outline" 
             size="sm" 
             className="rounded-none"
-            onClick={() => window.location.href = 'http://localhost:3000/location/egypt/'}
+            onClick={() => window.location.href = '/location/egypt/'}
           >
             DETAILS
           </Button>

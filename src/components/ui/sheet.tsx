@@ -20,7 +20,7 @@ const SheetOverlay = React.forwardRef<
   React.ComponentPropsWithoutRef<typeof SheetPrimitive.Overlay>
 >(({ className, ...props }, ref) => {
   const handleClick = () => {
-    window.location.href = 'http://localhost:3000/location/egypt/';
+    window.location.href = '/location/egypt/';
   };
 
   return (

@@ -31,7 +31,7 @@ export function CTASection() {
 
           {/* Action Buttons - 移动端垂直排列，桌面端水平排列 */}
           <div className="flex flex-col lg:flex-row gap-4 justify-center items-center px-4 lg:px-0">
-            <Link href="http://localhost:3000/about/" className="w-full sm:w-auto">
+            <Link href="/about/" className="w-full sm:w-auto">
               <Button
                 size="lg"
                 className="w-full sm:w-auto bg-white text-gray-900 hover:bg-gray-100 font-medium px-8 py-4 rounded-lg h-12 shadow-md hover:shadow-lg transition-all duration-200"
@@ -39,7 +39,7 @@ export function CTASection() {
                 CONTACT US
               </Button>
             </Link>
-            <Link href="http://localhost:3000/about/" className="w-full sm:w-auto">
+            <Link href="/about/" className="w-full sm:w-auto">
               <Button
                 size="lg"
                 variant="outline"

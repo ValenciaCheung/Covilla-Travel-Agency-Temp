@@ -9,11 +9,11 @@ export function Footer() {
   ];
 
   const links = [
-    { name: "DESTINATIONS", href: "http://localhost:3000/" },
-    { name: "FRANCE", href: "http://localhost:3000/location/france/" },
-    { name: "INDONESIA", href: "http://localhost:3000/location/indonesia/" },
-    { name: "GREECE", href: "http://localhost:3000/location/greece/" },
-    { name: "EGYPT", href: "http://localhost:3000/location/egypt/" },
+    { name: "DESTINATIONS", href: "/" },
+    { name: "FRANCE", href: "/location/france/" },
+    { name: "INDONESIA", href: "/location/indonesia/" },
+    { name: "GREECE", href: "/location/greece/" },
+    { name: "EGYPT", href: "/location/egypt/" },
   ];
 
   return (

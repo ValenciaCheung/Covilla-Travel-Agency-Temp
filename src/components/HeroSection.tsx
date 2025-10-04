@@ -113,7 +113,7 @@ export function HeroSection() {
 
             {/* CTA Button - 增加底部间距 */}
             <div className="mb-8 lg:mb-0">
-              <Link href="http://localhost:3000/about/">
+              <Link href="/about/">
                 <Button
                   size="lg"
                   className="bg-white text-gray-900 hover:bg-gray-100 font-medium px-8 py-4 text-base rounded-lg lg:text-[18px] h-12 shadow-md hover:shadow-lg transition-all duration-200"

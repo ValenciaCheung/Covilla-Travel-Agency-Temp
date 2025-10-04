@@ -86,7 +86,7 @@ export default function AboutPage() {
                   Changing the future of family travel
                 </h2>
                 <div className="pt-6 sm:pt-8">
-                  <Link href="http://localhost:3000/about/">
+                  <Link href="/about/">
                     <button className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-indigo-700 transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-3xl overflow-hidden">
                       <div className="absolute inset-0 bg-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                       <span className="relative z-10">CONTACT US</span>

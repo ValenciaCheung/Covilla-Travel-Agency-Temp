@@ -58,7 +58,7 @@ export function HowItWorksSection() {
                 Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec
                 ac neque. Sed vitae sollicitudin elit, ac tristique nisi.
               </p>
-              <Link href="http://localhost:3000/about/">
+              <Link href="/about/">
                 <Button
                   size="lg"
                   className="bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-3 rounded-none"

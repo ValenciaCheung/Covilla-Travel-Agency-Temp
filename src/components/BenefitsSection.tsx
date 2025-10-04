@@ -83,17 +83,17 @@ export default function BenefitsSection() {
                       key={destination.name}
                       href={
                         destination.name === 'Egypt' 
-                          ? 'http://localhost:3000/location/egypt/' 
+                          ? '/location/egypt/' 
                           : destination.name === 'France' 
-                          ? 'http://localhost:3000/location/france/' 
+                          ? '/location/france/' 
                           : destination.name === 'Indonesia'
-                          ? 'http://localhost:3000/location/indonesia/'
+                          ? '/location/indonesia/'
                           : destination.name === 'Greece'
-                          ? 'http://localhost:3000/location/greece/'
+                          ? '/location/greece/'
                           : destination.name === 'Spain'
-                          ? 'http://localhost:3000/location/spain/'
+                          ? '/location/spain/'
                           : destination.name === 'Italy'
-                          ? 'http://localhost:3000/location/italy/'
+                          ? '/location/italy/'
                           : '#'
                       }
                       className="group cursor-pointer transition-all duration-300 hover:scale-105 block"
