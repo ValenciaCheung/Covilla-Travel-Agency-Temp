@@ -22,6 +22,7 @@ export function HeroSection() {
     const v = videoRef.current;
     if (v) {
       v.muted = true;
+      v.load();
       v.play().catch(() => {});
     }
   };
@@ -147,13 +148,19 @@ export function HeroSection() {
                 <video
                   ref={videoRef}
                   className="w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                  src="https://videos.pexels.com/video-files/1093662/1093662-hd_1920_1080_30fps.mp4"
                   muted
                   playsInline
                   loop
-                  preload="metadata"
+                  preload="none"
                   onError={handleVideoError}
-                />
+                >
+                  {isHover && (
+                    <source
+                      src="https://videos.pexels.com/video-files/1093662/1093662-hd_1920_1080_30fps.mp4"
+                      type="video/mp4"
+                    />
+                  )}
+                </video>
               ) : (
                 <div
                   className="w-full h-full bg-cover bg-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -162,7 +169,7 @@ export function HeroSection() {
                   }}
                 />
               )}
-
+            
               {/* Center play control - perfectly centered */}
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <div className="relative">

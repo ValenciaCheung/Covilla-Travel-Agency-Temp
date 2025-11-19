@@ -277,113 +277,145 @@ export function Header() {
 
               {/* Logo - 优化移动端显示 */}
               <div className="px-4 md:px-6 h-16 flex items-center">
-                <h1
-                  className={`text-xl md:text-2xl font-bold tracking-tight transition-colors duration-300 ${
-                    isScrolled ? "text-gray-900" : "text-white"
-                  }`}
-                >
-                  COVILLA
-                </h1>
+                <a href="/" aria-label="Home" className="inline-block">
+                  <h1
+                    className={`text-xl md:text-2xl font-bold tracking-tight transition-colors duration-300 ${
+                      isScrolled ? "text-gray-900" : "text-white"
+                    }`}
+                  >
+                    COVILLA
+                  </h1>
+                </a>
               </div>
             </div>
 
             {/* Desktop Navigation - 隐藏在中小屏幕 */}
-            <nav className="hidden lg:flex items-center space-x-8 px-6 h-16">
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button
-                    variant="ghost"
-                    className={`relative overflow-hidden h-10 px-6 rounded-lg font-medium flex items-center gap-2 transition-all duration-300 hover:scale-105 ${
-                      isScrolled
-                        ? "bg-white hover:bg-gray-50 border border-gray-200 text-gray-900"
-                        : "bg-transparent hover:bg-white/10 border border-white text-white"
-                    }`}
-                  >
-                    <span
-                      className={`relative z-10 font-semibold tracking-wide transition-colors duration-300 ${
-                        isScrolled ? "text-gray-900" : "text-white"
+            <nav className="hidden lg:flex items-center px-6 h-16 flex-1">
+              <div
+                className={`${
+                  isScrolled ? "flex" : "hidden"
+                } items-center gap-8 mx-auto`}
+                aria-label="Primary navigation"
+              >
+                <a
+                  href="/about/"
+                  aria-label="About"
+                  className="text-sm font-medium text-gray-900 px-1 py-2 transition-colors duration-200 hover:text-gray-700"
+                >
+                  ABOUT
+                </a>
+                <a
+                  href="/journal/"
+                  aria-label="Journal"
+                  className="text-sm font-medium text-gray-900 px-1 py-2 transition-colors duration-200 hover:text-gray-700"
+                >
+                  JOURNAL
+                </a>
+                <a
+                  href="/support/"
+                  aria-label="Support"
+                  className="text-sm font-medium text-gray-900 px-1 py-2 transition-colors duration-200 hover:text-gray-700"
+                >
+                  SUPPORT
+                </a>
+              </div>
+              <div className="ml-auto">
+                <DropdownMenu>
+                  <DropdownMenuTrigger asChild>
+                    <Button
+                      variant="ghost"
+                      className={`relative overflow-hidden h-10 px-6 rounded-lg font-medium flex items-center gap-2 transition-all duration-300 hover:scale-105 ${
+                        isScrolled
+                          ? "bg-white hover:bg-gray-50 border border-gray-200 text-gray-900"
+                          : "bg-transparent hover:bg-white/10 border border-white text-white"
                       }`}
                     >
-                      DESTINATIONS
-                    </span>
-                    <ChevronDown
-                      className={`h-4 w-4 relative z-10 transition-colors duration-300 ${
-                        isScrolled ? "text-gray-900" : "text-white"
-                      }`}
-                    />
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent
-                  align="end"
-                  className="w-80 p-4 bg-white border border-gray-200 shadow-lg rounded-lg"
-                >
-                  <div className="grid grid-cols-2 gap-3">
-                    {destinations.map((destination, index) => (
-                      <a
-                        key={destination.name}
-                        href={
-                          destination.name === "Egypt"
-                            ? "/location/egypt/"
-                            : destination.name === "France"
-                            ? "/location/france/"
-                            : destination.name === "Indonesia"
-                            ? "/location/indonesia/"
-                            : destination.name === "Greece"
-                            ? "/location/greece/"
-                            : destination.name === "Spain"
-                            ? "/location/spain/"
-                            : destination.name === "Italy"
-                            ? "/location/italy/"
-                            : "#"
-                        }
-                        className="group cursor-pointer transition-all duration-300 hover:scale-105 block"
+                      <span
+                        className={`relative z-10 font-semibold tracking-wide transition-colors duration-300 ${
+                          isScrolled ? "text-gray-900" : "text-white"
+                        }`}
                       >
-                        <div className="relative h-20 rounded-lg overflow-hidden border border-gray-200 bg-white group-hover:border-transparent transition-all duration-300">
-                          {/* Background image - only visible on hover */}
-                          <div
-                            className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                            style={{
-                              backgroundImage: `url(${destination.backgroundImage})`,
-                              backgroundSize: "cover",
-                              backgroundPosition: "center",
-                              backgroundRepeat: "no-repeat",
-                            }}
-                          ></div>
+                        DESTINATIONS
+                      </span>
+                      <ChevronDown
+                        className={`h-4 w-4 relative z-10 transition-colors duration-300 ${
+                          isScrolled ? "text-gray-900" : "text-white"
+                        }`}
+                      />
+                    </Button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent
+                    align="end"
+                    className="w-80 p-4 bg-white border border-gray-200 shadow-lg rounded-lg"
+                  >
+                    <div className="grid grid-cols-2 gap-3">
+                      {destinations.map((destination, index) => (
+                        <a
+                          key={destination.name}
+                          href={
+                            destination.name === "Egypt"
+                              ? "/location/egypt/"
+                              : destination.name === "France"
+                              ? "/location/france/"
+                              : destination.name === "Indonesia"
+                              ? "/location/indonesia/"
+                              : destination.name === "Greece"
+                              ? "/location/greece/"
+                              : destination.name === "Spain"
+                              ? "/location/spain/"
+                              : destination.name === "Italy"
+                              ? "/location/italy/"
+                              : "#"
+                          }
+                          className="group cursor-pointer transition-all duration-300 hover:scale-105 block"
+                        >
+                          <div className="relative h-20 rounded-lg overflow-hidden border border-gray-200 bg-white group-hover:border-transparent transition-all duration-300">
+                            {/* Background image - only visible on hover */}
+                            <div
+                              className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                              style={{
+                                backgroundImage: `url(${destination.backgroundImage})`,
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                                backgroundRepeat: "no-repeat",
+                              }}
+                            ></div>
 
-                          {/* Background overlay - only visible on hover */}
-                          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300"></div>
+                            {/* Background overlay - only visible on hover */}
+                            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300"></div>
 
-                          {/* Content */}
-                          <div className="relative z-10 p-3 h-full flex flex-col justify-between">
-                            <div>
-                              <h3 className="font-semibold text-sm text-gray-900 group-hover:text-white transition-colors duration-300">
-                                {destination.name}
-                              </h3>
-                              <p className="text-xs text-gray-500 group-hover:text-white/90 uppercase tracking-wide transition-colors duration-300">
-                                {destination.vacations} VACATIONS
-                              </p>
+                            {/* Content */}
+                            <div className="relative z-10 p-3 h-full flex flex-col justify-between">
+                              <div>
+                                <h3 className="font-semibold text-sm text-gray-900 group-hover:text-white transition-colors duration-300">
+                                  {destination.name}
+                                </h3>
+                                <p className="text-xs text-gray-500 group-hover:text-white/90 uppercase tracking-wide transition-colors duration-300">
+                                  {destination.vacations} VACATIONS
+                                </p>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </a>
-                    ))}
-                  </div>
-
-                  {/* Additional Navigation Links */}
-                  <div className="mt-4 pt-4 border-t border-gray-100">
-                    <div className="space-y-2">
-                      <DropdownMenuItem asChild>
-                        <a
-                          href="/about"
-                          className="w-full px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors duration-200 cursor-pointer flex items-center"
-                        >
-                          ABOUT
                         </a>
-                      </DropdownMenuItem>
+                      ))}
                     </div>
-                  </div>
-                </DropdownMenuContent>
-              </DropdownMenu>
+
+                    {/* Additional Navigation Links */}
+                    <div className="mt-4 pt-4 border-t border-gray-100">
+                      <div className="space-y-2">
+                        <DropdownMenuItem asChild>
+                          <a
+                            href="/about"
+                            className="w-full px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors duration-200 cursor-pointer flex items-center"
+                          >
+                            ABOUT
+                          </a>
+                        </DropdownMenuItem>
+                      </div>
+                    </div>
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              </div>
             </nav>
           </div>
         </div>

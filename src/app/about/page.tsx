@@ -9,6 +9,7 @@ export default function AboutPage() {
   const [scrollY, setScrollY] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
   const missionRef = useRef<HTMLDivElement>(null);
+  const [heroHeight, setHeroHeight] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,6 +28,15 @@ export default function AboutPage() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const updateHeight = () => {
+      setHeroHeight(Math.round((window.innerHeight * 2) / 3));
+    };
+    updateHeight();
+    window.addEventListener("resize", updateHeight);
+    return () => window.removeEventListener("resize", updateHeight);
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -34,7 +44,10 @@ export default function AboutPage() {
       {/* Main Content */}
       <main className="relative">
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900">
+        <section
+          className="relative flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900"
+          style={{ height: heroHeight ? `${heroHeight}px` : undefined }}
+        >
           {/* Background Elements */}
           <div className="absolute inset-0">
             <div className="absolute top-1/4 left-1/4 w-48 h-48 sm:w-72 sm:h-72 lg:w-96 lg:h-96 bg-blue-500/20 rounded-full blur-3xl animate-pulse"></div>
@@ -127,7 +140,10 @@ export default function AboutPage() {
         <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="text-center space-y-8 sm:space-y-12">
-              <span className="text-sm sm:text-base font-semibold text-white px-3 py-1 rounded uppercase tracking-wider" style={{ backgroundColor: "#3572ff" }}>
+              <span
+                className="text-sm sm:text-base font-semibold text-white px-3 py-1 rounded uppercase tracking-wider"
+                style={{ backgroundColor: "#3572ff" }}
+              >
                 Our mission
               </span>
 

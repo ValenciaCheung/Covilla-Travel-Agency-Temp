@@ -23,9 +23,11 @@ export function Footer() {
           {/* Brand and Footer Links */}
           <div className="flex flex-wrap justify-between items-center gap-6 mb-8">
             <div className="flex flex-wrap justify-start items-center gap-6">
-              <h2 className="text-2xl font-bold text-gray-900 tracking-tight mr-8">
-                COVILLA
-              </h2>
+              <a href="/" aria-label="Home" className="mr-8">
+                <h2 className="text-2xl font-bold text-gray-900 tracking-tight">
+                  COVILLA
+                </h2>
+              </a>
               {links.map((link) => (
                 <a
                   key={link.name}
