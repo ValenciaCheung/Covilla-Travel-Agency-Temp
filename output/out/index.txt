@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:I[7555,[],""]
+3:I[1295,[],""]
+4:I[428,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"Header"]
+5:I[2045,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"HeroSection"]
+6:I[3616,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"DestinationsSection"]
+7:I[169,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"BenefitsSection"]
+8:I[3566,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"FeaturesSection"]
+9:I[4777,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"TestimonialsSection"]
+a:I[96,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"VacationTabsSection"]
+b:I[1831,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"CTASection"]
+c:I[5558,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"HowItWorksSection"]
+d:I[1396,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"AboutSection"]
+e:I[5492,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"TeamSection"]
+f:I[210,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"BlogSection"]
+10:I[6821,["736","static/chunks/736-be3968b66c33468e.js","974","static/chunks/app/page-e01a9b47d861ff93.js"],"Footer"]
+11:I[9665,[],"MetadataBoundary"]
+13:I[9665,[],"OutletBoundary"]
+16:I[4911,[],"AsyncMetadataOutlet"]
+18:I[9665,[],"ViewportBoundary"]
+1a:I[6614,[],""]
+:HL["/_next/static/media/0484562807a97172-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/4c285fdca692ea22-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/8888a3826f4a3af4-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/b957ea75a84b6ea7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/eafabf029ad39a43-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/014b4eb519b9ba22.css","style"]
+0:{"P":null,"b":"9fPYP1r7IMx6aosGHgXB2","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/014b4eb519b9ba22.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_e8ce0c __variable_51684b font-sans antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen","children":[["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{}],["$","$Lb",null,{}],["$","$Lc",null,{}],["$","$Ld",null,{}],["$","$Le",null,{}],["$","$Lf",null,{}],["$","$L10",null,{}]]}],["$","$L11",null,{"children":"$L12"}],null,["$","$L13",null,{"children":["$L14","$L15",["$","$L16",null,{"promise":"$@17"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","jNxREJLedUxHv5CsiIDXq",{"children":[["$","$L18",null,{"children":"$L19"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$1a","$undefined"],"s":false,"S":true}
+1b:"$Sreact.suspense"
+1c:I[4911,[],"AsyncMetadata"]
+12:["$","$1b",null,{"fallback":null,"children":["$","$L1c",null,{"promise":"$@1d"}]}]
+15:null
+19:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+14:null
+1d:{"metadata":[["$","title","0",{"children":"Covilla - Family Travel Agency"}],["$","meta","1",{"name":"description","content":"Let's plan your next vacation. Covilla is a family travel agency offering personalized vacation planning across the world."}]],"error":null,"digest":"$undefined"}
+17:{"metadata":"$1d:metadata","error":null,"digest":"$undefined"}

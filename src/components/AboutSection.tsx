@@ -14,23 +14,23 @@ export function AboutSection() {
       alt: "Family vacation"
     },
     {
-      src: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=beautiful%20tropical%20beach%20sunset%20with%20palm%20trees&image_size=landscape_4_3",
+      src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80&auto=format&fit=crop",
       alt: "Tropical beach sunset"
     },
     {
-      src: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=luxury%20resort%20pool%20with%20ocean%20view&image_size=landscape_4_3",
+      src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80&auto=format&fit=crop",
       alt: "Luxury resort pool"
     },
     {
-      src: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=mountain%20hiking%20adventure%20scenic%20view&image_size=landscape_4_3",
+      src: "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?w=1920&q=80&auto=format&fit=crop",
       alt: "Mountain hiking adventure"
     },
     {
-      src: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=city%20skyline%20at%20night%20with%20lights&image_size=landscape_4_3",
+      src: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&q=80&auto=format&fit=crop",
       alt: "City skyline at night"
     },
     {
-      src: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=cozy%20cabin%20in%20winter%20forest&image_size=landscape_4_3",
+      src: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1920&q=80&auto=format&fit=crop",
       alt: "Cozy winter cabin"
     }
   ];

@@ -22,7 +22,7 @@ const destinations: Destination[] = [
       "Iconic Greek island famous for its stunning sunsets, white-washed buildings, and blue-domed churches. Experience luxury resorts, volcanic beaches, and world-renowned wines in this romantic paradise.",
     price: "From $499",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Santorini%20Greece%20white%20buildings%20with%20blue%20domes%20overlooking%20Aegean%20Sea%2C%20sunset%20golden%20hour%2C%20romantic%20island%20paradise&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1920&q=80&auto=format&fit=crop",
     location: "Cyclades, Greece",
   },
   {
@@ -32,7 +32,7 @@ const destinations: Destination[] = [
       "Cosmopolitan island paradise famous for its vibrant nightlife, iconic windmills, pristine beaches, and charming Cycladic architecture. The perfect blend of luxury, culture, and Mediterranean beauty.",
     price: "From $420",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Mykonos%20Greece%20iconic%20white%20windmills%20on%20hilltop%20overlooking%20turquoise%20Aegean%20Sea%2C%20traditional%20Cycladic%20white%20buildings%2C%20blue%20domes%2C%20Mediterranean%20paradise&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1920&q=80&auto=format&fit=crop",
     location: "Cyclades, Greece",
   },
   {
@@ -42,7 +42,7 @@ const destinations: Destination[] = [
       "Cradle of Western civilization featuring the iconic Acropolis, ancient temples, and world-class museums. Discover millennia of history while enjoying modern Greek cuisine and culture.",
     price: "From $299",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Athens%20Greece%20Acropolis%20and%20Parthenon%20temple%20on%20hilltop%2C%20ancient%20Greek%20architecture%2C%20historical%20landmark%2C%20clear%20blue%20sky&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1920&q=80&auto=format&fit=crop",
     location: "Attica, Greece",
   },
   {
@@ -52,7 +52,7 @@ const destinations: Destination[] = [
       "Largest Greek island offering diverse landscapes from pristine beaches to rugged mountains. Explore ancient Minoan palaces, traditional villages, and exceptional Mediterranean cuisine.",
     price: "From $350",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Crete%20Greece%20beautiful%20coastline%20with%20crystal%20clear%20turquoise%20water%2C%20dramatic%20cliffs%2C%20Mediterranean%20landscape%2C%20sunny%20weather&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1920&q=80&auto=format&fit=crop",
     location: "Crete, Greece",
   },
   {
@@ -62,7 +62,7 @@ const destinations: Destination[] = [
       "Medieval island fortress with UNESCO World Heritage old town, ancient ruins, and beautiful beaches. Rich history spanning from ancient Greece to medieval knights and Ottoman rule.",
     price: "From $320",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Rhodes%20Greece%20medieval%20old%20town%20with%20ancient%20stone%20walls%2C%20historic%20fortress%2C%20Mediterranean%20architecture%2C%20UNESCO%20heritage&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1920&q=80&auto=format&fit=crop",
     location: "Dodecanese, Greece",
   },
   {
@@ -72,7 +72,7 @@ const destinations: Destination[] = [
       "Emerald island famous for Navagio Beach with its shipwreck, crystal-clear waters, and dramatic limestone cliffs. Home to endangered loggerhead sea turtles and stunning natural beauty.",
     price: "From $380",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Zakynthos%20Greece%20Navagio%20Beach%20with%20shipwreck%2C%20dramatic%20white%20limestone%20cliffs%2C%20crystal%20clear%20turquoise%20water%2C%20paradise%20beach&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1920&q=80&auto=format&fit=crop",
     location: "Ionian Islands, Greece",
   },
 ];

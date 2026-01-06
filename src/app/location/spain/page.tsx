@@ -22,7 +22,7 @@ const destinations: Destination[] = [
       "Discover the architectural wonders of Antoni Gaudí in this vibrant Catalan capital. From the iconic Sagrada Familia to the whimsical Park Güell, Barcelona offers a perfect blend of art, culture, and Mediterranean charm.",
     price: "From $399",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Beautiful%20French%20countryside%20landscape%20with%20rolling%20hills%2C%20vineyards%2C%20lavender%20fields%2C%20charming%20stone%20village%2C%20golden%20sunset%20light&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=1920&q=80&auto=format&fit=crop",
     location: "Catalonia, Spain",
   },
   {
@@ -32,7 +32,7 @@ const destinations: Destination[] = [
       "Spain's magnificent capital city boasts world-class museums like the Prado, elegant boulevards, and vibrant plazas. Experience the heart of Spanish culture with its royal palaces, art galleries, and lively tapas scene.",
     price: "From $350",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Picturesque%20French%20village%20with%20cobblestone%20streets%2C%20traditional%20architecture%2C%20flower%20boxes%2C%20cafe%20terraces%2C%20warm%20afternoon%20light&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80&auto=format&fit=crop",
     location: "Community of Madrid, Spain",
   },
   {
@@ -42,7 +42,7 @@ const destinations: Destination[] = [
       "The passionate capital of Andalusia enchants visitors with its Moorish architecture, flamenco rhythms, and orange-scented streets. Explore the magnificent Alcázar palace and the world's largest Gothic cathedral.",
     price: "From $299",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Stunning%20French%20Mediterranean%20coastline%20with%20azure%20blue%20sea%2C%20white%20cliffs%2C%20coastal%20towns%2C%20boats%20in%20harbor%2C%20sunny%20day&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80&auto=format&fit=crop",
     location: "Andalusia, Spain",
   },
   {
@@ -52,7 +52,7 @@ const destinations: Destination[] = [
       "Nestled at the foot of the Sierra Nevada mountains, Granada is home to the breathtaking Alhambra palace. This historic city perfectly blends Moorish heritage with Spanish culture in an unforgettable setting.",
     price: "From $275",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Majestic%20French%20castle%20surrounded%20by%20lush%20green%20forests%2C%20Loire%20Valley%20landscape%2C%20fairy%20tale%20architecture%2C%20clear%20blue%20sky&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?w=1920&q=80&auto=format&fit=crop",
     location: "Andalusia, Spain",
   },
   {
@@ -62,7 +62,7 @@ const destinations: Destination[] = [
       "Spain's third-largest city combines futuristic architecture with ancient history. Famous for paella, beautiful beaches, and the stunning City of Arts and Sciences, Valencia offers the perfect Mediterranean experience.",
     price: "From $320",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Beautiful%20French%20Alps%20mountain%20landscape%20with%20snow%20capped%20peaks%2C%20alpine%20meadows%2C%20traditional%20chalets%2C%20crystal%20clear%20lake&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1562883676-8c7feb83f09b?w=1920&q=80&auto=format&fit=crop",
     location: "Valencia, Spain",
   },
   {
@@ -72,7 +72,7 @@ const destinations: Destination[] = [
       "The ancient 'City of Three Cultures' sits majestically on a hilltop overlooking the Tagus River. This UNESCO World Heritage site showcases centuries of Christian, Muslim, and Jewish coexistence through its stunning architecture.",
     price: "From $250",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Romantic%20French%20Paris%20cityscape%20with%20Eiffel%20Tower%2C%20Seine%20river%2C%20historic%20bridges%2C%20Haussmanian%20buildings%2C%20golden%20hour%20lighting&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&q=80&auto=format&fit=crop",
     location: "Castile-La Mancha, Spain",
   },
 ];

@@ -22,7 +22,7 @@ const destinations: Destination[] = [
       "The Eternal City captivates with its ancient wonders and timeless beauty. From the mighty Colosseum to the sacred Vatican, Rome offers an unparalleled journey through history, art, and culture that spans over two millennia.",
     price: "From $450",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Ancient%20Roman%20Colosseum%20at%20golden%20hour%2C%20historic%20architecture%2C%20tourists%20walking%2C%20warm%20sunset%20lighting%2C%20iconic%20Italian%20landmark&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1920&q=80&auto=format&fit=crop",
     location: "Lazio, Italy",
   },
   {
@@ -32,7 +32,7 @@ const destinations: Destination[] = [
       "The birthplace of the Renaissance enchants visitors with its artistic treasures and architectural masterpieces. Home to Michelangelo's David, the Uffizi Gallery, and the magnificent Duomo, Florence is a living museum of human creativity.",
     price: "From $380",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Florence%20Ponte%20Vecchio%20bridge%20over%20Arno%20river%2C%20medieval%20stone%20bridge%2C%20colorful%20buildings%2C%20Tuscan%20architecture%2C%20Renaissance%20city&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1541450805064-00e0e5cd6d9b?w=1920&q=80&auto=format&fit=crop",
     location: "Tuscany, Italy",
   },
   {
@@ -42,7 +42,7 @@ const destinations: Destination[] = [
       "The magical floating city built on water offers a unique and romantic experience. Glide through ancient canals on a gondola, explore St. Mark's Square, and discover the timeless beauty of this UNESCO World Heritage masterpiece.",
     price: "From $420",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Venice%20Grand%20Canal%20with%20gondolas%2C%20historic%20palaces%2C%20water%20reflections%2C%20romantic%20Italian%20waterways%2C%20sunset%20atmosphere&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80&auto=format&fit=crop",
     location: "Veneto, Italy",
   },
   {
@@ -52,7 +52,7 @@ const destinations: Destination[] = [
       "Italy's fashion and design capital combines modern sophistication with historical grandeur. Marvel at the Gothic Duomo, shop in the elegant Quadrilatero della Moda, and experience world-class art including Da Vinci's Last Supper.",
     price: "From $400",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Milan%20Cathedral%20Duomo%20with%20Gothic%20spires%2C%20white%20marble%20facade%2C%20Italian%20architecture%2C%20city%20square%2C%20fashion%20capital&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80&auto=format&fit=crop",
     location: "Lombardy, Italy",
   },
   {
@@ -62,7 +62,7 @@ const destinations: Destination[] = [
       "The vibrant gateway to southern Italy offers authentic culture, incredible cuisine, and access to Pompeii and the Amalfi Coast. Experience the birthplace of pizza, explore ancient ruins, and soak in the passionate Neapolitan spirit.",
     price: "From $320",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Naples%20Bay%20with%20Mount%20Vesuvius%2C%20Italian%20coastal%20city%2C%20Mediterranean%20sea%2C%20volcanic%20landscape%2C%20southern%20Italy&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1536763173270-2a37e2c0e8f0?w=1920&q=80&auto=format&fit=crop",
     location: "Campania, Italy",
   },
   {
@@ -72,7 +72,7 @@ const destinations: Destination[] = [
       "Five picturesque fishing villages perched dramatically on the rugged Ligurian coastline. Connected by scenic hiking trails and charming trains, these colorful towns offer breathtaking views, fresh seafood, and authentic Italian coastal charm.",
     price: "From $350",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Cinque%20Terre%20colorful%20houses%20on%20cliffs%2C%20Italian%20Riviera%2C%20Mediterranean%20coastline%2C%20fishing%20village%2C%20terraced%20vineyards&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?w=1920&q=80&auto=format&fit=crop",
     location: "Liguria, Italy",
   },
 ];

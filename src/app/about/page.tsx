@@ -126,7 +126,7 @@ export default function AboutPage() {
               >
                 <div className="aspect-square bg-gradient-to-br from-blue-100 to-indigo-200 rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow duration-500">
                   <img
-                    src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=real%20family%20photography%20with%20parents%20and%20children%20at%20scenic%20travel%20destination%2C%20authentic%20candid%20moments%2C%20natural%20lighting%2C%20documentary%20style&image_size=square_hd"
+                    src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80&auto=format&fit=crop"
                     alt="Family Travel Experience"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   />
@@ -163,42 +163,42 @@ export default function AboutPage() {
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                   <div className="col-span-2 md:col-span-1 lg:col-span-2">
                     <img
-                      src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20walking%20on%20pristine%20tropical%20beach%20with%20turquoise%20water%2C%20romantic%20travel%20photography%2C%20golden%20hour%20lighting&image_size=landscape_16_9"
+                      src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1920&q=80&auto=format&fit=crop"
                       alt="Couple on beach"
                       className="w-full h-48 sm:h-64 lg:h-80 object-cover rounded-lg"
                     />
                   </div>
                   <div>
                     <img
-                      src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=woman%20enjoying%20scenic%20mountain%20view%20from%20cliff%2C%20travel%20adventure%20photography%2C%20natural%20lighting&image_size=portrait_4_3"
+                      src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80&auto=format&fit=crop"
                       alt="Mountain view"
                       className="w-full h-48 sm:h-64 lg:h-80 object-cover rounded-lg"
                     />
                   </div>
                   <div className="md:col-span-2 lg:col-span-1">
                     <img
-                      src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=tropical%20resort%20with%20lush%20green%20mountains%20and%20crystal%20clear%20lagoon%2C%20paradise%20destination%20photography&image_size=landscape_4_3"
+                      src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1920&q=80&auto=format&fit=crop"
                       alt="Tropical resort"
                       className="w-full h-48 sm:h-64 lg:h-80 object-cover rounded-lg"
                     />
                   </div>
                   <div>
                     <img
-                      src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=dramatic%20mountain%20landscape%20reflected%20in%20calm%20lake%2C%20serene%20nature%20photography%2C%20misty%20atmosphere&image_size=portrait_4_3"
+                      src="https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=1920&q=80&auto=format&fit=crop"
                       alt="Lake reflection"
                       className="w-full h-48 sm:h-64 lg:h-80 object-cover rounded-lg"
                     />
                   </div>
                   <div>
                     <img
-                      src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=white%20buildings%20of%20Santorini%20Greece%20overlooking%20blue%20Aegean%20sea%2C%20Mediterranean%20travel%20photography&image_size=portrait_4_3"
+                      src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1920&q=80&auto=format&fit=crop"
                       alt="Santorini view"
                       className="w-full h-48 sm:h-64 lg:h-80 object-cover rounded-lg"
                     />
                   </div>
                   <div>
                     <img
-                      src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=lush%20green%20rice%20terraces%20in%20tropical%20valley%2C%20agricultural%20landscape%20photography%2C%20vibrant%20colors&image_size=portrait_4_3"
+                      src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1920&q=80&auto=format&fit=crop"
                       alt="Rice terraces"
                       className="w-full h-48 sm:h-64 lg:h-80 object-cover rounded-lg"
                     />
@@ -206,7 +206,7 @@ export default function AboutPage() {
                   {/* Additional image in bottom right */}
                   <div>
                     <img
-                      src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=beautiful%20tropical%20sunset%20over%20ocean%20with%20palm%20trees%20silhouette%2C%20golden%20hour%20travel%20photography&image_size=landscape_4_3"
+                      src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=1920&q=80&auto=format&fit=crop"
                       alt="Tropical sunset"
                       className="w-full h-48 sm:h-64 lg:h-80 object-cover rounded-lg"
                     />
@@ -247,7 +247,7 @@ export default function AboutPage() {
             <div className="overflow-hidden group cursor-pointer hover:shadow-lg transition-shadow duration-300 border-0 bg-white rounded-lg">
               <div className="aspect-[4/5] overflow-hidden">
                 <img
-                  src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20travel%20agent%20portrait%2C%20friendly%20smile%2C%20business%20attire%2C%20warm%20lighting%2C%20office%20background&image_size=portrait_4_3"
+                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80&auto=format&fit=crop"
                   alt="Terry Von"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -263,7 +263,7 @@ export default function AboutPage() {
             <div className="overflow-hidden group cursor-pointer hover:shadow-lg transition-shadow duration-300 border-0 bg-white rounded-lg">
               <div className="aspect-[4/5] overflow-hidden">
                 <img
-                  src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20female%20travel%20consultant%2C%20confident%20pose%2C%20modern%20office%20setting%2C%20natural%20lighting&image_size=portrait_4_3"
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80&auto=format&fit=crop"
                   alt="Sarah Prat"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -279,7 +279,7 @@ export default function AboutPage() {
             <div className="overflow-hidden group cursor-pointer hover:shadow-lg transition-shadow duration-300 border-0 bg-white rounded-lg">
               <div className="aspect-[4/5] overflow-hidden">
                 <img
-                  src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20travel%20advisor%20headshot%2C%20welcoming%20expression%2C%20business%20casual%20attire%2C%20bright%20office%20environment&image_size=portrait_4_3"
+                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&q=80&auto=format&fit=crop"
                   alt="Samantha Tai"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -295,7 +295,7 @@ export default function AboutPage() {
             <div className="overflow-hidden group cursor-pointer hover:shadow-lg transition-shadow duration-300 border-0 bg-white rounded-lg">
               <div className="aspect-[4/5] overflow-hidden">
                 <img
-                  src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=experienced%20travel%20specialist%20portrait%2C%20professional%20demeanor%2C%20suit%20and%20tie%2C%20corporate%20background&image_size=portrait_4_3"
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&q=80&auto=format&fit=crop"
                   alt="Craig Wents"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />

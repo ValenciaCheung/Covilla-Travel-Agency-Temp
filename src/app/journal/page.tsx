@@ -143,7 +143,7 @@ export default function JournalPage() {
               <Card className="rounded-xl overflow-hidden border-0 shadow-lg group">
                 <div className="aspect-[4/3] overflow-hidden relative">
                   <img
-                    src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Majestic%20waterfall%20cascading%20down%20rocky%20cliffs%20surrounded%20by%20lush%20green%20forest%2C%20misty%20spray%20and%20natural%20beauty&image_size=landscape_4_3"
+                    src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80&auto=format&fit=crop"
                     alt="What Will Website Be Like In 100 Years?"
                     className="w-full h-full object-cover transition-transform duration-300 will-change-transform group-hover:scale-105"
                   />
@@ -180,7 +180,7 @@ export default function JournalPage() {
                   {
                     title: "14 Common Misconceptions About Web Design",
                     image:
-                      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Spectacular%20tropical%20waterfall%20with%20crystal%20clear%20water%20falling%20into%20turquoise%20pool%2C%20surrounded%20by%20tropical%20vegetation&image_size=square",
+                      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80&auto=format&fit=crop",
                   },
                   {
                     title: "5 Principles Of Effective Web Design",

@@ -18,7 +18,7 @@ export function BlogSection() {
     excerpt:
       "Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.",
     date: "APRIL 19, 2021",
-    image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Majestic%20waterfall%20cascading%20down%20rocky%20cliffs%20surrounded%20by%20lush%20green%20forest%2C%20misty%20spray%20and%20natural%20beauty&image_size=landscape_4_3",
+    image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80&auto=format&fit=crop",
   };
 
   const popularPosts: BlogPost[] = [
@@ -27,7 +27,7 @@ export function BlogSection() {
       title: "14 Common Misconceptions About Web Design",
       excerpt: "",
       date: "APRIL 19, 2021",
-      image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Spectacular%20tropical%20waterfall%20with%20crystal%20clear%20water%20falling%20into%20turquoise%20pool%2C%20surrounded%20by%20tropical%20vegetation&image_size=square",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80&auto=format&fit=crop",
     },
     {
       id: "principles",

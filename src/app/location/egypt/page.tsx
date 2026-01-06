@@ -22,7 +22,7 @@ const destinations: Destination[] = [
       "Experience the magic of the Western Desert with its natural hot springs, ancient ruins, and stunning landscapes. Perfect for adventure seekers looking to explore Egypt's hidden gems.",
     price: "From $299",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Bahariya%20Oasis%20Egypt%20desert%20landscape%20with%20palm%20trees%20and%20natural%20hot%20springs%2C%20golden%20sand%20dunes%2C%20clear%20blue%20sky&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80&auto=format&fit=crop",
     location: "Western Desert, Egypt",
   },
   {
@@ -32,7 +32,7 @@ const destinations: Destination[] = [
       "Luxury resort destination on the Red Sea coast featuring pristine beaches, world-class diving, and exclusive resorts. Ideal for relaxation and water sports enthusiasts.",
     price: "From $450",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Sahl%20Hasheesh%20Red%20Sea%20luxury%20resort%20with%20crystal%20clear%20turquoise%20water%2C%20white%20sandy%20beach%2C%20palm%20trees%2C%20modern%20hotels&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80&auto=format&fit=crop",
     location: "Red Sea, Egypt",
   },
   {
@@ -42,7 +42,7 @@ const destinations: Destination[] = [
       "Historic Mediterranean port city with ancient landmarks, beautiful coastline, and rich cultural heritage. Discover the legendary Library of Alexandria and Pharos Lighthouse.",
     price: "From $199",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Alexandria%20Egypt%20Mediterranean%20coastline%20with%20ancient%20architecture%2C%20historic%20buildings%2C%20blue%20sea%2C%20lighthouse%20in%20distance&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?w=1920&q=80&auto=format&fit=crop",
     location: "Mediterranean Coast, Egypt",
   },
   {
@@ -52,7 +52,7 @@ const destinations: Destination[] = [
       "Modern resort town built on lagoons with Venetian-style architecture, championship golf courses, and vibrant nightlife. A perfect blend of luxury and adventure.",
     price: "From $380",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=El%20Gouna%20Egypt%20lagoon%20resort%20with%20colorful%20buildings%2C%20marina%2C%20boats%2C%20clear%20water%2C%20modern%20architecture&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&q=80&auto=format&fit=crop",
     location: "Red Sea, Egypt",
   },
   {
@@ -62,7 +62,7 @@ const destinations: Destination[] = [
       "Stunning Mediterranean beach destination with crystal-clear waters and white sandy beaches. Famous for Cleopatra's Beach and ancient Roman ruins.",
     price: "From $250",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Marsa%20Matruh%20Egypt%20pristine%20white%20sandy%20beach%20with%20crystal%20clear%20turquoise%20Mediterranean%20water%2C%20rocky%20cliffs%2C%20sunny%20day&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1920&q=80&auto=format&fit=crop",
     location: "Mediterranean Coast, Egypt",
   },
   {
@@ -72,7 +72,7 @@ const destinations: Destination[] = [
       "World-renowned diving destination at the southern tip of Sinai Peninsula. Home to spectacular coral reefs, luxury resorts, and vibrant marine life.",
     price: "From $350",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Sharm%20El%20Sheikh%20Egypt%20coral%20reef%20underwater%20scene%20with%20colorful%20fish%2C%20clear%20blue%20water%2C%20diving%20paradise&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=1920&q=80&auto=format&fit=crop",
     location: "Sinai Peninsula, Egypt",
   },
 ];

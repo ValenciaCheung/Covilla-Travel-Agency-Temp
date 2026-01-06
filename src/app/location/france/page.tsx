@@ -21,7 +21,7 @@ const destinations: Destination[] = [
       "Perched dramatically on white limestone cliffs, Bonifacio offers breathtaking views of the Mediterranean. This medieval citadel town in Corsica combines stunning natural beauty with rich history, featuring narrow cobblestone streets and ancient fortifications.",
     price: 2800,
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Bonifacio%20Corsica%20medieval%20citadel%20white%20limestone%20cliffs%20Mediterranean%20sea%20ancient%20fortifications%20cobblestone%20streets%20dramatic%20coastal%20view&image_size=landscape_4_3",
+      "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=1920&q=80&auto=format&fit=crop",
   },
   {
     id: "nice",
@@ -30,7 +30,7 @@ const destinations: Destination[] = [
       "The jewel of the French Riviera, Nice enchants visitors with its famous Promenade des Anglais, azure Mediterranean waters, and Belle Époque architecture. Experience world-class museums, vibrant markets, and glamorous beach culture.",
     price: 3200,
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Nice%20French%20Riviera%20Promenade%20des%20Anglais%20azure%20Mediterranean%20waters%20Belle%20Epoque%20architecture%20glamorous%20beach%20culture&image_size=landscape_4_3",
+      "https://images.unsplash.com/photo-1517619224723-e92cacc32226?w=1920&q=80&auto=format&fit=crop",
   },
   {
     id: "provence",
@@ -39,7 +39,7 @@ const destinations: Destination[] = [
       "Immerse yourself in endless fields of purple lavender, charming hilltop villages, and sun-drenched vineyards. Provence embodies the essence of southern French lifestyle with its markets, cuisine, and timeless rural beauty.",
     price: 2600,
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Provence%20France%20endless%20purple%20lavender%20fields%20charming%20hilltop%20villages%20sun-drenched%20vineyards%20rural%20beauty&image_size=landscape_4_3",
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1920&q=80&auto=format&fit=crop",
   },
   {
     id: "paris",
@@ -48,7 +48,7 @@ const destinations: Destination[] = [
       "The City of Light captivates with iconic landmarks like the Eiffel Tower and Louvre, romantic Seine riverbanks, and world-renowned cuisine. Discover art, fashion, and culture in this eternally elegant capital.",
     price: 3800,
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Paris%20City%20of%20Light%20Eiffel%20Tower%20Louvre%20romantic%20Seine%20riverbanks%20elegant%20capital%20iconic%20landmarks&image_size=landscape_4_3",
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1920&q=80&auto=format&fit=crop",
   },
   {
     id: "loire",
@@ -57,7 +57,7 @@ const destinations: Destination[] = [
       "Known as the 'Garden of France,' the Loire Valley showcases magnificent Renaissance châteaux, world-class vineyards, and pristine countryside. Experience royal history and exceptional wines in this UNESCO World Heritage region.",
     price: 2900,
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Loire%20Valley%20France%20magnificent%20Renaissance%20chateaux%20world-class%20vineyards%20pristine%20countryside%20royal%20history&image_size=landscape_4_3",
+      "https://images.unsplash.com/photo-1464852045489-bccb7d17fe39?w=1920&q=80&auto=format&fit=crop",
   },
   {
     id: "normandy",
@@ -66,7 +66,7 @@ const destinations: Destination[] = [
       "From the dramatic white cliffs of Étretat to the historic D-Day beaches, Normandy offers profound history and natural beauty. Explore charming coastal towns, sample world-famous Calvados, and walk in the footsteps of history.",
     price: 2400,
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Normandy%20France%20white%20cliffs%20coastal%20beauty%20historic%20beaches%20charming%20towns%20dramatic%20coastline&image_size=landscape_4_3",
+      "https://images.unsplash.com/photo-1549288639-86528f9b4b16?w=1920&q=80&auto=format&fit=crop",
   },
   {
     id: "lyon",
@@ -75,7 +75,7 @@ const destinations: Destination[] = [
       "France's gastronomic capital offers Renaissance architecture, vibrant cultural scene, and world-renowned cuisine. Explore the UNESCO-listed Old Town, sample traditional Lyonnaise dishes, and discover the city's rich silk-weaving heritage.",
     price: 2700,
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Lyon%20France%20gastronomic%20capital%20Renaissance%20architecture%20UNESCO%20Old%20Town%20Rhone%20Saone%20rivers%20cultural%20heritage&image_size=landscape_4_3",
+      "https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=1920&q=80&auto=format&fit=crop",
   },
 ];
 
@@ -88,12 +88,12 @@ export default function FrancePage() {
 
   // Updated carousel images with 6 images from the destination cards
   const carouselImages = [
-    "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Nice%20French%20Riviera%20azure%20Mediterranean%20coastline%20Promenade%20des%20Anglais%20palm%20trees%20luxury%20hotels%20beach%20culture&image_size=landscape_16_9", // Nice
-    "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Provence%20lavender%20fields%20rolling%20hills%20charming%20villages%20French%20countryside%20purple%20flowers%20rustic%20beauty&image_size=landscape_16_9", // Provence
-    "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Paris%20Eiffel%20Tower%20Seine%20River%20romantic%20city%20lights%20French%20architecture%20iconic%20landmark%20evening%20glow&image_size=landscape_16_9", // Paris
-    "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Loire%20Valley%20France%20magnificent%20Renaissance%20chateaux%20world-class%20vineyards%20pristine%20countryside%20royal%20history&image_size=landscape_16_9", // Loire Valley
-    "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Normandy%20France%20white%20cliffs%20coastal%20beauty%20historic%20beaches%20charming%20towns%20dramatic%20coastline&image_size=landscape_16_9", // Normandy
-    "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=French%20vineyard%20countryside%20rolling%20hills%20golden%20sunset%20wine%20region%20peaceful%20rural%20landscape&image_size=landscape_16_9", // French countryside
+    "https://images.unsplash.com/photo-1517619224723-e92cacc32226?w=1920&q=80&auto=format&fit=crop", // Nice
+    "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1920&q=80&auto=format&fit=crop", // Provence
+    "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1920&q=80&auto=format&fit=crop", // Paris
+    "https://images.unsplash.com/photo-1464852045489-bccb7d17fe39?w=1920&q=80&auto=format&fit=crop", // Loire Valley
+    "https://images.unsplash.com/photo-1549288639-86528f9b4b16?w=1920&q=80&auto=format&fit=crop", // Normandy
+    "https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=1920&q=80&auto=format&fit=crop", // French countryside
   ];
 
   // Manual carousel navigation only - auto-play removed

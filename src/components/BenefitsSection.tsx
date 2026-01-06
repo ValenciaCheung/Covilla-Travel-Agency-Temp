@@ -14,32 +14,32 @@ const destinations = [
   {
     name: "France",
     vacations: 12,
-    backgroundImage: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Beautiful%20French%20countryside%20with%20lavender%20fields%20and%20charming%20villages%2C%20golden%20hour%20lighting%2C%20cinematic%20photography&image_size=landscape_16_9",
+    backgroundImage: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80&auto=format&fit=crop",
   },
   {
     name: "Indonesia",
     vacations: 8,
-    backgroundImage: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Tropical%20Indonesian%20beach%20with%20crystal%20clear%20turquoise%20water%2C%20palm%20trees%2C%20and%20traditional%20boats%2C%20paradise%20setting&image_size=landscape_16_9",
+    backgroundImage: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80&auto=format&fit=crop",
   },
   {
     name: "Greece",
     vacations: 15,
-    backgroundImage: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Greek%20island%20with%20white%20buildings%2C%20blue%20domes%2C%20and%20stunning%20Mediterranean%20sea%20views%2C%20Santorini%20style&image_size=landscape_16_9",
+    backgroundImage: "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?w=1920&q=80&auto=format&fit=crop",
   },
   {
     name: "Egypt",
     vacations: 6,
-    backgroundImage: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Ancient%20Egyptian%20pyramids%20at%20sunset%20with%20golden%20desert%20sands%2C%20majestic%20and%20mysterious%20atmosphere&image_size=landscape_16_9",
+    backgroundImage: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&q=80&auto=format&fit=crop",
   },
   {
     name: "Spain",
     vacations: 10,
-    backgroundImage: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Spanish%20coastal%20town%20with%20colorful%20buildings%2C%20Mediterranean%20architecture%2C%20and%20vibrant%20culture&image_size=landscape_16_9",
+    backgroundImage: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1920&q=80&auto=format&fit=crop",
   },
   {
     name: "Italy",
     vacations: 14,
-    backgroundImage: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Italian%20countryside%20with%20rolling%20hills%2C%20vineyards%2C%20and%20historic%20architecture%2C%20Tuscany%20landscape&image_size=landscape_16_9",
+    backgroundImage: "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=1920&q=80&auto=format&fit=crop",
   },
 ];
 
@@ -150,7 +150,7 @@ export default function BenefitsSection() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-lg">
               <img
-                src="https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Beautiful%20Greek%20seascape%20with%20crystal%20clear%20blue%20waters%20and%20white%20cliffs%20Mediterranean%20coastline&image_size=portrait_4_3"
+                src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80&auto=format&fit=crop"
                 alt="Beautiful Greek seascape with crystal clear waters"
                 className="w-full h-full object-cover"
               />

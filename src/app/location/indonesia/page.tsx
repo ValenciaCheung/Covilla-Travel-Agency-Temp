@@ -22,7 +22,7 @@ const destinations: Destination[] = [
       "Discover the Island of the Gods with its stunning temples, lush rice terraces, and pristine beaches. Experience traditional Balinese culture, world-class spas, and vibrant nightlife in this tropical paradise.",
     price: "From $399",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Bali%20Indonesia%20rice%20terraces%20with%20traditional%20temple%20in%20background%2C%20lush%20green%20landscape%2C%20tropical%20paradise%2C%20golden%20hour%20lighting&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1920&q=80&auto=format&fit=crop",
     location: "Bali, Indonesia",
   },
   {
@@ -32,7 +32,7 @@ const destinations: Destination[] = [
       "Home to the legendary Komodo dragons, this UNESCO World Heritage site offers incredible wildlife encounters, pristine diving spots, and dramatic landscapes. Perfect for adventure seekers and nature lovers.",
     price: "From $450",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Komodo%20Island%20Indonesia%20rugged%20volcanic%20landscape%20with%20Komodo%20dragons%2C%20dramatic%20hills%2C%20pristine%20beaches%2C%20UNESCO%20World%20Heritage%20site%2C%20wildlife%20sanctuary&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=1920&q=80&auto=format&fit=crop",
     location: "East Nusa Tenggara, Indonesia",
   },
   {
@@ -42,7 +42,7 @@ const destinations: Destination[] = [
       "Three small tropical islands offering crystal-clear waters, white sandy beaches, and vibrant coral reefs. No motorized vehicles allowed - just bicycles, horse carts, and pure island tranquility.",
     price: "From $299",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Gili%20Islands%20Indonesia%20pristine%20white%20sandy%20beach%20with%20crystal%20clear%20turquoise%20water%2C%20palm%20trees%2C%20tropical%20paradise%2C%20no%20cars&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1920&q=80&auto=format&fit=crop",
     location: "Lombok, Indonesia",
   },
   {
@@ -52,7 +52,7 @@ const destinations: Destination[] = [
       "Cultural heart of Java featuring ancient temples like Borobudur and Prambanan, traditional arts, royal palaces, and authentic Indonesian cuisine. A perfect blend of history and modern culture.",
     price: "From $199",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Yogyakarta%20Indonesia%20Borobudur%20temple%20at%20sunrise%2C%20ancient%20Buddhist%20architecture%2C%20misty%20mountains%2C%20cultural%20heritage&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1555217851-6141535bd771?w=1920&q=80&auto=format&fit=crop",
     location: "Central Java, Indonesia",
   },
   {
@@ -62,7 +62,7 @@ const destinations: Destination[] = [
       "The crown jewel of marine biodiversity, offering world-class diving with manta rays, whale sharks, and pristine coral reefs. Remote islands with untouched natural beauty and incredible underwater life.",
     price: "From $750",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Raja%20Ampat%20Indonesia%20pristine%20tropical%20islands%20with%20crystal%20clear%20water%2C%20coral%20reefs%2C%20remote%20paradise%2C%20diving%20destination&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1920&q=80&auto=format&fit=crop",
     location: "West Papua, Indonesia",
   },
   {
@@ -72,7 +72,7 @@ const destinations: Destination[] = [
       "Bali's quieter neighbor offering pristine beaches, the majestic Mount Rinjani volcano, traditional Sasak culture, and world-class surfing spots. Perfect for those seeking authentic Indonesian experiences.",
     price: "From $350",
     image:
-      "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Lombok%20Indonesia%20Mount%20Rinjani%20volcano%20with%20crater%20lake%2C%20dramatic%20mountain%20landscape%2C%20tropical%20island%20scenery&image_size=landscape_16_9",
+      "https://images.unsplash.com/photo-1532186651327-6ac23687d189?w=1920&q=80&auto=format&fit=crop",
     location: "West Nusa Tenggara, Indonesia",
   },
 ];

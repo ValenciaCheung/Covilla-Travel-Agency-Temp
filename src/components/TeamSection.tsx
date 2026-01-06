@@ -15,25 +15,25 @@ export function TeamSection() {
       id: "terry-von",
       name: "Terry Von",
       location: "New York, New York",
-      image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Beautiful%20ocean%20seascape%20with%20crystal%20clear%20turquoise%20water%2C%20white%20sandy%20beach%2C%20and%20tropical%20paradise%20setting&image_size=portrait_4_3",
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80&auto=format&fit=crop",
     },
     {
       id: "sarah-prat",
       name: "Sarah Prat",
       location: "Austin, Texas",
-      image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Majestic%20waterfall%20cascading%20down%20rocky%20cliffs%20surrounded%20by%20lush%20green%20forest%2C%20misty%20and%20serene%20atmosphere&image_size=portrait_4_3",
+      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80&auto=format&fit=crop",
     },
     {
       id: "samantha-tai",
       name: "Samantha Tai",
       location: "Miami, Florida",
-      image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Stunning%20coastal%20seascape%20with%20dramatic%20waves%20crashing%20against%20rocky%20shores%2C%20golden%20sunset%20lighting&image_size=portrait_4_3",
+      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&q=80&auto=format&fit=crop",
     },
     {
       id: "craig-wents",
       name: "Craig Wents",
       location: "Brooklyn, New York",
-      image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Powerful%20waterfall%20in%20tropical%20rainforest%20with%20emerald%20green%20pool%2C%20exotic%20plants%20and%20natural%20beauty&image_size=portrait_4_3",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&q=80&auto=format&fit=crop",
     },
   ];
 

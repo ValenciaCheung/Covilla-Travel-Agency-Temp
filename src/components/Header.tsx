@@ -37,37 +37,37 @@ export function Header() {
       name: "France",
       vacations: 15,
       backgroundImage:
-        "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Beautiful%20scenic%20view%20of%20France%20with%20Eiffel%20Tower%20and%20French%20countryside%20landscape%20travel%20destination&image_size=landscape_16_9",
+        "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80&auto=format&fit=crop",
     },
     {
       name: "Indonesia",
       vacations: 12,
       backgroundImage:
-        "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Stunning%20tropical%20landscape%20of%20Indonesia%20with%20temples%20and%20rice%20terraces%20travel%20destination&image_size=landscape_16_9",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80&auto=format&fit=crop",
     },
     {
       name: "Greece",
       vacations: 18,
       backgroundImage:
-        "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Beautiful%20Greek%20islands%20with%20white%20buildings%20and%20blue%20sea%20Mediterranean%20travel%20destination&image_size=landscape_16_9",
+        "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?w=1920&q=80&auto=format&fit=crop",
     },
     {
       name: "Egypt",
       vacations: 9,
       backgroundImage:
-        "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Ancient%20Egyptian%20pyramids%20and%20desert%20landscape%20historic%20travel%20destination&image_size=landscape_16_9",
+        "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&q=80&auto=format&fit=crop",
     },
     {
       name: "Spain",
       vacations: 21,
       backgroundImage:
-        "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Beautiful%20Spanish%20architecture%20and%20Mediterranean%20coastline%20travel%20destination&image_size=landscape_16_9",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1920&q=80&auto=format&fit=crop",
     },
     {
       name: "Italy",
       vacations: 16,
       backgroundImage:
-        "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Scenic%20Italian%20landscape%20with%20historic%20architecture%20and%20countryside%20travel%20destination&image_size=landscape_16_9",
+        "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=1920&q=80&auto=format&fit=crop",
     },
   ];
 

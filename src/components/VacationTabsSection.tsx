@@ -21,7 +21,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 6400,
-        image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Beautiful%20ocean%20seascape%20with%20crystal%20clear%20blue%20water%2C%20peaceful%20waves%20and%20horizon%2C%20serene%20maritime%20view&image_size=landscape_4_3",
+        image: "https://images.unsplash.com/photo-1539768942893-daf53e448371?w=800&q=80&auto=format&fit=crop",
       },
       {
         id: "sahl-hasheesh",
@@ -29,7 +29,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 7700,
-        image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Elegant%20sailboat%20on%20calm%20ocean%20waters%20near%20beautiful%20coastline%2C%20white%20sails%20against%20blue%20sky%2C%20maritime%20adventure&image_size=landscape_4_3",
+        image: "https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=800&q=80&auto=format&fit=crop",
       },
       {
         id: "alexandria",
@@ -37,7 +37,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 5300,
-        image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Tropical%20beach%20vacation%20scene%20with%20palm%20trees%2C%20white%20sand%2C%20turquoise%20water%2C%20perfect%20holiday%20destination&image_size=landscape_4_3",
+        image: "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?w=800&q=80&auto=format&fit=crop",
       },
     ],
     greece: [
@@ -47,7 +47,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 5600,
-        image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Traditional%20Greek%20coastal%20houses%20with%20white%20walls%20and%20blue%20roofs%20overlooking%20the%20Mediterranean%20sea%2C%20Santorini%20style%20architecture&image_size=landscape_4_3",
+        image: "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=800&q=80&auto=format&fit=crop",
       },
       {
         id: "meteora",
@@ -55,7 +55,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 2800,
-        image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Stunning%20Indonesian%20tropical%20landscape%20with%20lush%20green%20rice%20terraces%2C%20volcanic%20mountains%2C%20and%20traditional%20villages%2C%20Bali%20scenery&image_size=landscape_4_3",
+        image: "https://images.unsplash.com/photo-1555993539-1732b0258235?w=800&q=80&auto=format&fit=crop",
       },
       {
         id: "thessaloniki",
@@ -73,7 +73,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 6500,
-        image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Stunning%20Bali%20Canggu%20beach%20with%20black%20volcanic%20sand%2C%20surfers%20and%20palm%20trees%2C%20tropical%20Indonesian%20coastline%20at%20sunset&image_size=landscape_4_3",
+        image: "https://images.unsplash.com/photo-1555400082-ba552a0cf1a0?w=800&q=80&auto=format&fit=crop",
       },
       {
         id: "komodo",
@@ -81,7 +81,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 7600,
-        image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Dramatic%20Komodo%20Island%20landscape%20with%20rugged%20hills%2C%20savanna%20grasslands%2C%20and%20crystal%20blue%20waters%2C%20Indonesian%20national%20park&image_size=landscape_4_3",
+        image: "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800&q=80&auto=format&fit=crop",
       },
       {
         id: "penida-island",
@@ -99,7 +99,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 1400,
-        image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Picturesque%20French%20countryside%20with%20lavender%20fields%2C%20rolling%20hills%2C%20and%20charming%20stone%20villages%2C%20Provence%20landscape&image_size=landscape_4_3",
+        image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80&auto=format&fit=crop",
       },
       {
         id: "brittany",
@@ -107,7 +107,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 3600,
-        image: "https://trae-api-us.mchost.guru/api/ide/v1/text_to_image?prompt=Beautiful%20French%20coastal%20town%20with%20colorful%20buildings%2C%20harbor%20boats%2C%20and%20Mediterranean%20architecture%2C%20French%20Riviera%20style&image_size=landscape_4_3",
+        image: "https://images.unsplash.com/photo-1549288639-86528f9b4b16?w=800&q=80&auto=format&fit=crop",
       },
       {
         id: "carcassonne",
