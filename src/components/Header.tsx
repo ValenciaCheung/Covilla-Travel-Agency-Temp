@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -277,7 +278,7 @@ export function Header() {
 
               {/* Logo - 优化移动端显示 */}
               <div className="px-4 md:px-6 h-16 flex items-center">
-                <a href="/" aria-label="Home" className="inline-block">
+                <Link href="/" aria-label="Home" className="inline-block">
                   <h1
                     className={`text-xl md:text-2xl font-bold tracking-tight transition-colors duration-300 ${
                       isScrolled ? "text-gray-900" : "text-white"
@@ -285,7 +286,7 @@ export function Header() {
                   >
                     COVILLA
                   </h1>
-                </a>
+                </Link>
               </div>
             </div>
 
