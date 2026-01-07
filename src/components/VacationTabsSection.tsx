@@ -63,7 +63,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 6700,
-        image: "https://ext.same-assets.com/1081758887/1892031695.jpeg",
+        image: "https://images.pexels.com/photos/164336/pexels-photo-164336.jpeg?auto=compress&cs=tinysrgb&w=800",
       },
     ],
     indonesia: [
@@ -73,7 +73,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 6500,
-        image: "https://images.unsplash.com/photo-1555400082-ba552a0cf1a0?w=800&q=80&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1558862107-d49ef2a04d72?w=800&q=80&auto=format&fit=crop",
       },
       {
         id: "komodo",
@@ -89,7 +89,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 2800,
-        image: "https://ext.same-assets.com/1081758887/3332353641.jpeg",
+        image: "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=800",
       },
     ],
     france: [
@@ -107,7 +107,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 3600,
-        image: "https://images.unsplash.com/photo-1549288639-86528f9b4b16?w=800&q=80&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?w=800&q=80&auto=format&fit=crop",
       },
       {
         id: "carcassonne",
@@ -115,7 +115,7 @@ export function VacationTabsSection() {
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin eget.",
         price: 3900,
-        image: "https://ext.same-assets.com/1081758887/2015427747.jpeg",
+        image: "https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&w=800",
       },
     ],
   };

@@ -32,7 +32,7 @@ const destinations: Destination[] = [
       "Cosmopolitan island paradise famous for its vibrant nightlife, iconic windmills, pristine beaches, and charming Cycladic architecture. The perfect blend of luxury, culture, and Mediterranean beauty.",
     price: "From $420",
     image:
-      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1920&q=80&auto=format&fit=crop",
+      "https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&w=1920",
     location: "Cyclades, Greece",
   },
   {
@@ -42,7 +42,7 @@ const destinations: Destination[] = [
       "Cradle of Western civilization featuring the iconic Acropolis, ancient temples, and world-class museums. Discover millennia of history while enjoying modern Greek cuisine and culture.",
     price: "From $299",
     image:
-      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1920&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1555993539-1732b0258235?w=1920&q=80&auto=format&fit=crop",
     location: "Attica, Greece",
   },
   {
@@ -52,7 +52,7 @@ const destinations: Destination[] = [
       "Largest Greek island offering diverse landscapes from pristine beaches to rugged mountains. Explore ancient Minoan palaces, traditional villages, and exceptional Mediterranean cuisine.",
     price: "From $350",
     image:
-      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1920&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=1920&q=80&auto=format&fit=crop",
     location: "Crete, Greece",
   },
   {
@@ -62,7 +62,7 @@ const destinations: Destination[] = [
       "Medieval island fortress with UNESCO World Heritage old town, ancient ruins, and beautiful beaches. Rich history spanning from ancient Greece to medieval knights and Ottoman rule.",
     price: "From $320",
     image:
-      "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=1920&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1565932887479-b18108f07ffd?w=1920&q=80&auto=format&fit=crop",
     location: "Dodecanese, Greece",
   },
   {

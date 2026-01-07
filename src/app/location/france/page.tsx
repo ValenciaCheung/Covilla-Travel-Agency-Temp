@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
@@ -30,7 +29,7 @@ const destinations: Destination[] = [
       "The jewel of the French Riviera, Nice enchants visitors with its famous Promenade des Anglais, azure Mediterranean waters, and Belle Époque architecture. Experience world-class museums, vibrant markets, and glamorous beach culture.",
     price: 3200,
     image:
-      "https://images.unsplash.com/photo-1517619224723-e92cacc32226?w=1920&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1920&q=80&auto=format&fit=crop",
   },
   {
     id: "provence",
@@ -66,7 +65,7 @@ const destinations: Destination[] = [
       "From the dramatic white cliffs of Étretat to the historic D-Day beaches, Normandy offers profound history and natural beauty. Explore charming coastal towns, sample world-famous Calvados, and walk in the footsteps of history.",
     price: 2400,
     image:
-      "https://images.unsplash.com/photo-1549288639-86528f9b4b16?w=1920&q=80&auto=format&fit=crop",
+      "https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=1920",
   },
   {
     id: "lyon",
@@ -75,7 +74,7 @@ const destinations: Destination[] = [
       "France's gastronomic capital offers Renaissance architecture, vibrant cultural scene, and world-renowned cuisine. Explore the UNESCO-listed Old Town, sample traditional Lyonnaise dishes, and discover the city's rich silk-weaving heritage.",
     price: 2700,
     image:
-      "https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=1920&q=80&auto=format&fit=crop",
+      "https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&w=1920",
   },
 ];
 
@@ -88,12 +87,12 @@ export default function FrancePage() {
 
   // Updated carousel images with 6 images from the destination cards
   const carouselImages = [
-    "https://images.unsplash.com/photo-1517619224723-e92cacc32226?w=1920&q=80&auto=format&fit=crop", // Nice
+    "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1920&q=80&auto=format&fit=crop", // Nice
     "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1920&q=80&auto=format&fit=crop", // Provence
     "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1920&q=80&auto=format&fit=crop", // Paris
     "https://images.unsplash.com/photo-1464852045489-bccb7d17fe39?w=1920&q=80&auto=format&fit=crop", // Loire Valley
-    "https://images.unsplash.com/photo-1549288639-86528f9b4b16?w=1920&q=80&auto=format&fit=crop", // Normandy
-    "https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=1920&q=80&auto=format&fit=crop", // French countryside
+    "https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=1920", // Normandy
+    "https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&w=1920", // Lyon
   ];
 
   // Manual carousel navigation only - auto-play removed
@@ -234,26 +233,12 @@ export default function FrancePage() {
             {/* Destination Cards */}
             <div className="space-y-6 ml-10">
               {otherDestinations.map((destination, index) => {
-                // Map each card to different destination pages based on user requirements
-                // 6 cards: Nice, Provence, Paris, Loire Valley, Normandy, Lyon
-                // Link to all 6 destinations: Egypt, France, Indonesia, Greece, Spain, Italy
-                const destinationLinks = [
-                  "/location/egypt/", // Nice -> Egypt
-                  "/location/france/", // Provence -> France
-                  "/location/indonesia/", // Paris -> Indonesia
-                  "/location/greece/", // Loire Valley -> Greece
-                  "/location/spain/", // Normandy -> Spain
-                  "/location/italy/", // Lyon -> Italy
-                ];
-
                 return (
-                  <Link
+                  <div
                     key={destination.id}
-                    href={destinationLinks[index]}
-                    className="block group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-100 cursor-pointer"
-                    style={{ textDecoration: "none" }}
+                    className="block group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-100"
                   >
-                    <div className="flex pointer-events-none">
+                    <div className="flex">
                       {/* Card Image */}
                       <div
                         className="relative overflow-hidden flex-shrink-0"
@@ -285,10 +270,11 @@ export default function FrancePage() {
                             </div>
                             <button
                               onClick={(e) => {
+                                e.preventDefault();
                                 e.stopPropagation();
-                                window.location.href = "/location/france/";
+                                window.open(`https://www.booking.com/searchresults.html?ss=${encodeURIComponent(destination.name + ', France')}`, '_blank');
                               }}
-                              className="text-xs text-slate-500 uppercase tracking-wide font-medium hover:text-slate-700 transition-colors cursor-pointer pointer-events-auto bg-white border border-slate-200 px-3 py-1.5 rounded hover:bg-slate-50"
+                              className="text-xs text-slate-500 uppercase tracking-wide font-medium hover:text-slate-700 transition-colors cursor-pointer bg-white border border-slate-200 px-3 py-1.5 rounded hover:bg-slate-50"
                             >
                               DETAILS
                             </button>
@@ -306,7 +292,7 @@ export default function FrancePage() {
                         </div>
                       </div>
                     </div>
-                  </Link>
+                  </div>
                 );
               })}
             </div>

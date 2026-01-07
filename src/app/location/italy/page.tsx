@@ -32,7 +32,7 @@ const destinations: Destination[] = [
       "The birthplace of the Renaissance enchants visitors with its artistic treasures and architectural masterpieces. Home to Michelangelo's David, the Uffizi Gallery, and the magnificent Duomo, Florence is a living museum of human creativity.",
     price: "From $380",
     image:
-      "https://images.unsplash.com/photo-1541450805064-00e0e5cd6d9b?w=1920&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?w=1920&q=80&auto=format&fit=crop",
     location: "Tuscany, Italy",
   },
   {
@@ -62,7 +62,7 @@ const destinations: Destination[] = [
       "The vibrant gateway to southern Italy offers authentic culture, incredible cuisine, and access to Pompeii and the Amalfi Coast. Experience the birthplace of pizza, explore ancient ruins, and soak in the passionate Neapolitan spirit.",
     price: "From $320",
     image:
-      "https://images.unsplash.com/photo-1536763173270-2a37e2c0e8f0?w=1920&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=1920&q=80&auto=format&fit=crop",
     location: "Campania, Italy",
   },
   {
@@ -72,7 +72,7 @@ const destinations: Destination[] = [
       "Five picturesque fishing villages perched dramatically on the rugged Ligurian coastline. Connected by scenic hiking trails and charming trains, these colorful towns offer breathtaking views, fresh seafood, and authentic Italian coastal charm.",
     price: "From $350",
     image:
-      "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?w=1920&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1920&q=80&auto=format&fit=crop",
     location: "Liguria, Italy",
   },
 ];

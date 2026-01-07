@@ -42,7 +42,7 @@ const destinations: Destination[] = [
       "Historic Mediterranean port city with ancient landmarks, beautiful coastline, and rich cultural heritage. Discover the legendary Library of Alexandria and Pharos Lighthouse.",
     price: "From $199",
     image:
-      "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?w=1920&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=1920&q=80&auto=format&fit=crop",
     location: "Mediterranean Coast, Egypt",
   },
   {

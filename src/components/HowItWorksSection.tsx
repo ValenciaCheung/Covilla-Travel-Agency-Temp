@@ -32,7 +32,7 @@ export function HowItWorksSection() {
   ];
 
   return (
-    <section className="py-24 bg-gray-50">
+    <section id="how-it-works" className="py-24 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* Left Side - Image and Content */}

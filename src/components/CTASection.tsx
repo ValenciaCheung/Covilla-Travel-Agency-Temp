@@ -39,15 +39,19 @@ export function CTASection() {
                 CONTACT US
               </Button>
             </Link>
-            <Link href="/about/" className="w-full sm:w-auto">
-              <Button
-                size="lg"
-                variant="outline"
-                className="w-full sm:w-auto border-white bg-transparent text-white hover:bg-white/10 hover:text-white font-medium px-8 py-4 rounded-lg h-12 shadow-md hover:shadow-lg transition-all duration-200"
-              >
-                HOW IT WORKS
-              </Button>
-            </Link>
+            <Button
+              size="lg"
+              variant="outline"
+              onClick={() => {
+                const section = document.getElementById('how-it-works');
+                if (section) {
+                  section.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+              className="w-full sm:w-auto border-white bg-transparent text-white hover:bg-white/10 hover:text-white font-medium px-8 py-4 rounded-lg h-12 shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer"
+            >
+              HOW IT WORKS
+            </Button>
           </div>
         </div>
       </div>
